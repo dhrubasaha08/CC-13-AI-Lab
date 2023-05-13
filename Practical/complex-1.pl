@@ -28,3 +28,12 @@ language(bengali).
 spoken(bengali,wb).
 %which languages are spoken through which ganga flows?
 %which are the capitols through which river flows?
+
+
+flows_through_language(River, Language) :-
+    flows(State, River),
+    spoken(Language, State).
+
+flows_through_capitol(River, Capitol) :-
+    flows(State, River),
+    capitol(Capitol, State).
