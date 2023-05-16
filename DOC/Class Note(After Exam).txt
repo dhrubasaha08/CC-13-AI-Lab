@@ -1,0 +1,122 @@
+21/4/23
+Intelligent agents should have capacity for -
+1. Perceiving - Aquiring information from the environment.
+2. Knowledge Representation- reprresenting its understanding of the world.
+3. Reasoning - inferring the implications of what it knows and the choices it had.
+4. Acting - Choosing what it wants to do and carrry it out.
+
+Advantages of using formal logic as a language of AI -
+1. Precise and definite.
+2. It allows programs to be written which are declarative - they describe what is true and not how to solve the problems.
+3. It allows for automated reasoning techiques for generaik purpose inferencing.
+
+Limitations of formal logic - 
+1. A large portion of the reasoning carried out by humans depends on handling knowledge that is uncertain. Logic cannot represent 
+this uncertainty well.
+2. Natural language reasoning require inferring hidden state namely the intention of the speaker.
+
+Logic   
+		> i.language 	> 1. Syntax 2.Semantics
+		> ii.Reasoning
+There are a number of logical systems with different syntax and semantics.For example Propositional logic, Fist order predicate logic, Temporal, modal, high order logic, non monotonic
+
+1. Propositional Logic
+
+Example of logical reasoning based on propositional logic
+
+Example 1:	
+When it rains it is humid
+It is raining now
+
+Therefore, it is humid
+
+The first two stetement are called premises or actions. We take axioms to be true. The third statement is called conclusion. The logical rule to come to soloution called Modus Pollens.
+
+
+If P represent it rains
+   Q represent it is humid
+   P => Q
+	
+
+Example 2:
+If it is raining or 
+it is summer then 
+We use umbrellas
+
+It is summer now
+Therefore, we use umbrella now
+
+Example 3:
+If the sun rises in the west then the human brings can fly.
+But the sun always rises in the east.
+
+Hence, human brings can never fly.
+
+Example 4:
+
+Porsius Casket
+Casket made of gold, silver, lead. There are three casket
+A gold ring is in one of the three casket.
+
+on each casket one is a statement out of which only one statement is true
+
+Gold casket: The ring is not in this casket
+Silver casket: The ring is not in this casket
+Lead casket : The ring not in the gold casket
+
+The problem is in which casket in the ring located
+
+in Gold as i false ii true iii false
+
+Logical Paradox
+Paradox has no soloution.
+
+Who is the follower of the guru who says dont follow me.
+Can the almighty make a stone that he can't break.
+
+Definition of Propositional Logic
+
+
+
+
+
+26/4/2023
+
+Interpitation of wff is a under that interpitaion
+
+
+Example: Interpitaion is a model of (PAQ)->(R<->NS)
+
+Validity and constantency of WFF
+Consider the truth table for G represt ((P->Q^P)->Q
+
+Validity is valid if it is true a under all. A valid formula also called tautolougies example: Ajay is at home or not at home.
+WFF is said to to invalid if it is not valid.
+
+Inconsistency	
+A formula is set to be inconsistence, unsatisfiable or a condradiction if and only if it is evaluated to be falue under all its interpretations.
+Example: the sky is blue and the sky is not blue.
+
+
+WFF is a satisfiable is that is not unsatisfiable.
+
+Observations
+1.	A WFF is valid, if the negetion of it is in inconsistant.
+A WFF is inconstant if the and only if the negation is valid
+ a formula is set to be invaild if therer exist in atleat 1 counter model.
+A formula is said to be contistant or satifiable if there exist vatleat one model.
+5. If a WFF is valid if then it is consistant or satisfaiable but not vice e versa
+
+6. if a wff is isconsistent then it is invalid anas dnot vice e versa.
+
+Problem for Homework
+For the following formula determine whether they're valid , invalid, inconsistant, consistent, or complecation of this
+1. 
+
+A formula or WFF P is said to be equivalent to a WFF formula Q denoted by P ≡ Q
+if and only if the truth values of P and q are the same.
+g1 = p>q
+g2 = 
+
+list of some equivalence formula.
+

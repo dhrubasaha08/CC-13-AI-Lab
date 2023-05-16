@@ -1,0 +1,9 @@
+Intelligent agents should have capacity for -e
+1. Perceiving - Aquiring information from the environment.
+2. Knowledge Representation- reprresenting its understanding of the world.
+3. Reasoning - inferring the implications of what it knows and the choices it had.
+4. Acting - Choosing what it wants to do and carrry it out.
+
+Advantages of using formal logic as a language of AI.
+1. Precise and definite.
+2. It allows programs to be written which are declarative - they describe what is true and not how to solve the problems.
